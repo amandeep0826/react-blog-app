@@ -5,7 +5,7 @@ import NavbarComponent from "./components/navbar";
 
 function App() {
   return (
-    <div>
+    <div style={{ paddingRight: "7em", paddingLeft: "7em" }}>
       <NavbarComponent></NavbarComponent>
       <FeaturedBlog></FeaturedBlog>
     </div>
