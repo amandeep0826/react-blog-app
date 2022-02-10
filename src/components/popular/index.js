@@ -2,12 +2,8 @@ import React from "react";
 
 export default function Popular() {
   return (
-    <div
-      style={{
-        paddingLeft: "15px",
-      }}
-    >
-      <div style={{ width: "90px" }}>
+    <div>
+      <div style={{ width: "90px", marginBottom: "1em" }}>
         <label
           style={{
             fontSize: "1.25rem",
