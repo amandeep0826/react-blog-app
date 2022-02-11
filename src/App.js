@@ -2,14 +2,16 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 import BodyComponent from "./components/bodyComponent";
 import FeaturedBlog from "./components/featured";
+import FooterComponent from "./components/footer";
 import NavbarComponent from "./components/navbar";
 
 function App() {
   return (
     <div style={{ paddingRight: "7em", paddingLeft: "7em" }}>
-      <NavbarComponent></NavbarComponent>
-      <FeaturedBlog></FeaturedBlog>
-      <BodyComponent></BodyComponent>
+      <NavbarComponent />
+      <FeaturedBlog />
+      <BodyComponent />
+      <FooterComponent />
     </div>
   );
 }
