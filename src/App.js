@@ -1,18 +1,18 @@
 import "bootstrap/dist/css/bootstrap.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import BodyComponent from "./components/bodyComponent";
-import FeaturedBlog from "./components/featured";
-import FooterComponent from "./components/footer";
-import NavbarComponent from "./components/navbar";
+import BlogComponent from "./components/blog";
+
+import Router from "./components/router";
 
 function App() {
   return (
-    <div style={{ paddingRight: "7em", paddingLeft: "7em" }}>
-      <NavbarComponent />
-      <FeaturedBlog />
-      <BodyComponent />
-      <FooterComponent />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Router />} />
+        <Route path="/blog" element={<BlogComponent />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
