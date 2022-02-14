@@ -53,7 +53,7 @@ export default function FeaturedBlog() {
           4.1.3, Mundana is the perfect design for your professional blog.
           Homepage, post article and category layouts available.
         </p>
-        <Link to="./blog" class="btn btn-dark">
+        <Link to="/blog" class="btn btn-dark">
           Read More
         </Link>
       </div>
